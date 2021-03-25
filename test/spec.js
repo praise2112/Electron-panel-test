@@ -25,9 +25,9 @@ describe('Electron Panel', function () {
     });
 
     afterEach(function () {
-      if (this.app && this.app.isRunning()) {
-        return this.app.stop();
-      }
+      // if (this.app && this.app.isRunning()) {
+      //   return this.app.stop();
+      // }
     });
 
     it('shows panel', function () {
